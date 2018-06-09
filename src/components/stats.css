@@ -1,0 +1,96 @@
+body{
+    background-color: #fff;
+}
+.pdy6{
+    padding: .375rem 0;
+}
+
+.month{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: .75rem;
+color:#fff;
+background-color: #fc4d3c;
+margin-top:.0625rem;
+}
+.centeritem{
+    margin-left: 1.5rem;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: .375rem;
+    font-size: .75rem;
+}
+.tab_item{
+    line-height: 1.125rem;
+    height:1.125rem;
+    color: #fc4d3c;
+    text-align: center;
+    padding: .1875rem 3rem;
+    border: .0625rem solid #fc4d3c;
+}
+.checked_it{
+    background-color: #fc4d3c;
+    color: #fff;
+}
+.radius_l{
+    border-radius:  .1875rem 0 0 .1875rem;
+}
+.radius_r{
+    border-radius:  0 .1875rem .1875rem 0;
+}
+
+/* count */
+.count{
+    font-size: .75rem;
+    display: flex;
+    justify-content:space-around;
+    margin-top:1rem;
+}
+
+.count_l{
+    display: flex;
+    flex-direction:column;
+}
+
+/* chart */
+.chart_y{
+padding-left: 1rem;
+color: #a0a0a0;
+}
+.chart_y li {
+    border-bottom: .0625rem solid #eeeeee;
+    padding-bottom: .25rem;
+    padding-top: .5rem;
+}
+/* 影藏不掉的滚动条 1.套一层给定位滚动,定宽高隐藏滚动条*/
+.enroll_x{
+    height:32px;
+   overflow: hidden;
+    border-top: 1px solid #fc4d3c;
+    border-bottom: 1px solid #eee;
+}
+
+.char_x{
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    padding-left: 1rem;
+   margin-top: .0625rem;
+}
+.char_x li{
+    padding: .375rem 1rem;
+}
+
+
+
+
+
+
+
+
+
