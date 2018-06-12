@@ -1,2 +1,2 @@
 # pomotodo
-目标：用vue百分百还原pomotodo
+目标：html css js vue =>pomotodo

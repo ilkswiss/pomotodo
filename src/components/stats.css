@@ -86,8 +86,111 @@ color: #a0a0a0;
     padding: .375rem 1rem;
 }
 
+/* workday 最佳工作日 */
+.workday{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: .0625rem solid #eeeeee;
+}
+.workday_l  li{
+line-height: 2rem;
+height: 2rem;
+}
+.workday_r{
+padding-bottom: .375rem;
+display: flex;
+justify-content: center;
+align-self:flex-end
+}
+.workday_r li{
+    padding: 0 .2rem;
+}
+.workday_r_col{
+    width: 1rem;
+    height: 4rem;
+    border-radius: 100px;
+    background-color: #f0eff7; 
+}
 
 
+
+
+.workday_r_col_desc{
+color: #919191;
+font-size: .375rem;
+margin-left: .125rem;
+}
+
+
+/* .scroll_content 滚动区域没有给限制高度 */
+
+
+.main{
+   height: 100vh;
+   overflow-y: scroll;
+}
+/* 滚动给body禁止滚动。所有的滚动都包一层滚动 */
+
+/* 红色柱子色号为 #fb5d51 加imp增强 */
+.col_red{
+    background-color: #fb5d51  !important;
+}
+/* 公共 */
+.font12{
+    font-size: .75rem;
+}
+/* workhours */
+.workhours{
+    padding: 1rem;
+    border-bottom: .0625rem solid #eeeeee;
+}
+.workhours_best{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.workhours_best li{
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.hours_view li{
+    width: .5rem;
+    height: 4rem;
+    border-radius: 100px;
+    background-color: #f0eff7; 
+}
+
+.hours_desc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #919191;
+}
+.hours_desc li{
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+
+
+/* common_tags */
+.common_tags{
+    padding: 1rem  1rem  10rem  1rem;
+}
+.common_tags_title{
+    font-size: .75rem;
+}
+.common_tags_data{
+    font-size: 1rem;
+}
+.common_tags_tasks{
+    font-size: .68rem;
+}
+.common_tags ul li {
+    line-height: 2rem;
+    height: 2rem;
+}
 
 
 

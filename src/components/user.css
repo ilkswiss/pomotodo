@@ -1,0 +1,38 @@
+.main{
+    height: 100vh;
+    overflow-y: scroll;
+ }
+ .scroll_content{
+     padding-bottom: 8rem;
+ }
+
+.con_bg{
+    background-color: #f0eff5;
+}
+ 
+/* user content */
+.user_m h6{
+    font-style: normal;
+    color: #6e6d73;
+    margin: 1.2rem 0 .5rem 1rem;
+}
+
+.pd1_lr{
+    padding: 0 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between
+}
+
+.row_config{
+    border-bottom: 1px solid #f0eff5;
+    background-color: #fff;
+    font-size: .9rem;
+    line-height: 2rem;
+    height: 2rem;
+}
+.gray{
+    color: #949494;
+}

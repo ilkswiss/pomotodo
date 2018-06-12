@@ -6,6 +6,8 @@ input{ display: block; outline: none;border: 0;}
 body{
     background: #f0eff5;
     font-family: '微软雅黑';
+    overflow:hidden;
+    /* overflow:hidden;禁止滚动条出现headerflex布局所有滚动条需要额外包一层 */
 }
 /* header */
 #header{
@@ -29,6 +31,11 @@ body{
     justify-content:space-between;
     align-items:center;
 }
+
+#header #logo{
+    margin-left: -8px;
+}
+
 #header #logo img{
     width: 1.4375rem;
 }
